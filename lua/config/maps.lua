@@ -11,9 +11,6 @@ map("n", "<leader>w", "<CMD>update<CR>", "Save current file")
 map("n", "<leader>q", "<CMD>q<CR>", "Close window")
 
 -- NeoTree
--- New Windows
-map("n", "<leader>o", "<CMD>vsplit<CR>")
-map("n", "<leader>p", "<CMD>split<CR>")
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>", "Toggle explorer")
 map("n", "<leader>r", "<CMD>Neotree focus<CR>", "Switch to explorer")
 
