@@ -9,6 +9,7 @@ map("n", "<leader>w", "<CMD>update<CR>", "Save current file")
 
 -- Quit
 map("n", "<leader>q", "<CMD>q<CR>", "Close window")
+map("n", "<leader>Q", "<CMD>qa<CR>", "Close all window")
 
 -- NeoTree
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>", "Toggle explorer")
@@ -26,4 +27,6 @@ map("n", "<C-Right>", "<C-w>>", "Resize window to the right")
 map("n", "<C-Up>", "<C-w>+", "Resize window to the top")
 map("n", "<C-Down>", "<C-w>-", "Resize window to the bottom")
 
+-- Diagnostic navigation
+map("n", "g[", vim.diagnostic.goto_prev, "Go to previous diagnostic")
 map("n", "g]", vim.diagnostic.goto_next, "Go to next diagnostic")
