@@ -22,3 +22,11 @@ o.mouse = "a"
 -- Add capability to use clipboard to system
 o.clipboard = "unnamedplus"
 
+-- Show diagnostic message inline
+vim.diagnostic.config({
+	virtual_text = true, -- Show inline error messages
+	signs = true, -- Show signs in the gutter
+	underline = true, -- Underline the error
+	update_in_insert = false, -- Optional: don’t show while typing
+	severity_sort = true,
+})
