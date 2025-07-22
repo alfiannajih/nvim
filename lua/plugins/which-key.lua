@@ -8,11 +8,9 @@ return {
 		spec = {
 			{
 				mode = { "n", "v" },
-				{ "<leader><tab>", group = "tabs" },
 				{ "<leader>c", group = "code" },
 				{ "<leader>t", group = "telescope" },
 				{ "<leader>g", group = "git" },
-				{ "<leader>q", group = "quit/session" },
 				{ "<leader>x", group = "diagnostics/quickfix", icon = { icon = "󱖫 ", color = "green" } },
 				{ "g", group = "goto" },
 				{ "z", group = "fold" },
