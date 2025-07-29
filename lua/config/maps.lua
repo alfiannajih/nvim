@@ -30,3 +30,6 @@ map("n", "<C-Down>", "<C-w>-", "Resize window to the bottom")
 -- Diagnostic navigation
 map("n", "g[", vim.diagnostic.goto_prev, "Go to previous diagnostic")
 map("n", "g]", vim.diagnostic.goto_next, "Go to next diagnostic")
+
+-- Go To navigation
+map("n", "gd", "<CMD>lua vim.lsp.buf.definition()<CR>", "Go to definition")
