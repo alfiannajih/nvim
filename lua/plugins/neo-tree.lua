@@ -7,13 +7,6 @@ return {
 	},
 	keys = {
 		{
-			"<leader>ge",
-			function()
-				require("neo-tree.command").execute({ source = "git_status", toggle = true })
-			end,
-			desc = "Git Explorer",
-		},
-		{
 			"<leader>be",
 			function()
 				require("neo-tree.command").execute({ source = "buffers", toggle = true })
