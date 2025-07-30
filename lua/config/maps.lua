@@ -33,3 +33,6 @@ map("n", "g]", vim.diagnostic.goto_next, "Go to next diagnostic")
 
 -- Go To navigation
 map("n", "gd", "<CMD>lua vim.lsp.buf.definition()<CR>", "Go to definition")
+
+-- Lsp signature
+map("i", "<C-k>", "<cmd>lua require('lsp_signature').toggle_float_win()<CR>", "Toggle lsp signature")
